@@ -15,3 +15,6 @@
     background-color: white;
     color: orangered;
 }
+#navbar .nav-link .dropdown-menu .show:hover{
+    display: block;
+}
