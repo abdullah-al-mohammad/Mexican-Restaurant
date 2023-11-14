@@ -1,0 +1,17 @@
+/* global site */
+
+
+/* navbar */
+#navbar .btn-primary{
+    background-color: transparent !important;
+    color: #eb6825;
+    border: none;
+}
+#navbar .btn-secondary {
+    background-color: #eb6825;
+    border-color: orangered;
+}
+#navbar .btn-secondary:hover {
+    background-color: white;
+    color: orangered;
+}
