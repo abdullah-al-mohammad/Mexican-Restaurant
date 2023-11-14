@@ -1,5 +1,10 @@
 /* global site */
-
+body{
+    font-family: 'Roboto', sans-serif !important;
+}
+.font-upperCase{
+    text-transform: uppercase !important;
+}
 
 /* navbar */
 #navbar .btn-primary{
@@ -15,9 +20,13 @@
     background-color: white;
     color: orangered;
 }
+#navbar ul li{
+    font-size: small !important;
+}
 #navbar2 .nav-link:focus, .nav-link:hover{
     color: orangered !important;
 }
-#navbar2 .dropdown .nav-item .dropdown-menu:hover .show{
+#navbar2 .demo .nav-item:hover .dropdown-menu {
     display: block !important;
+    right: 20px;
 }
