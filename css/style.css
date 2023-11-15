@@ -15,18 +15,19 @@ body{
 #navbar .btn-secondary {
     background-color: #eb6825;
     border-color: orangered;
+    border-radius: 5px;
 }
 #navbar .btn-secondary:hover {
     background-color: white;
     color: orangered;
 }
-#navbar ul li{
+#navbar button, input, optgroup, select, textarea,a{
     font-size: small !important;
+    font-weight: 700;
 }
-#navbar2 .nav-link:focus, .nav-link:hover{
+#navbar .demo .nav-link:focus, .nav-link:hover{
     color: orangered !important;
 }
-#navbar2 .demo .nav-item:hover .dropdown-menu {
+#navbar .demo .nav-item:hover .dropdown-menu {
     display: block !important;
-    right: 20px;
 }
