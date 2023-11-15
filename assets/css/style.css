@@ -31,3 +31,32 @@ body{
 #navbar .demo .nav-item:hover .dropdown-menu {
     display: block !important;
 }
+
+/* home section */
+
+#home{
+    background-image: url('../images/home.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#home .home-input .form-control{
+    height: 49px;
+    border-radius: 0;
+}
+#home .home-input .form-control:focus{
+    border-color: transparent;
+    box-shadow: none;
+}
+#home .home-input .btn-warning{
+    width: 150px;
+    height: 50px;
+    padding: 10px 15px;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: inherit;
+    border: none;
+    background-color: #eb6825 ;
+}
