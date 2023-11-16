@@ -69,3 +69,10 @@
 #home .home-text{
     padding: 250px 0;
 }
+/* HOW IT WORKS */
+.icon-box figure{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid #eb6825;
+}
