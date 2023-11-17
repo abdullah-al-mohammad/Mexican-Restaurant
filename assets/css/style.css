@@ -71,8 +71,35 @@
 }
 /* HOW IT WORKS */
 .icon-box figure{
-    height: 100px;
-    width: 100px;
+    position: relative;
+    height: 125px;
+    width: 125px;
     border-radius: 50%;
     border: 2px solid #eb6825;
+    display: inline-block;
+    margin: 10px 100px;
+}
+.icon-box .icon-holder figure ::after{
+    position: absolute;
+    content: '';
+    height: 30px;
+    width: 16px;
+    border-style: solid;
+    border-width: 2px 2px 2px 0;
+    border-radius: 0 22px 22px 0;
+    border-color: #eb6825;
+    right: 4PX;
+    bottom: 0;
+    transform: rotate(45deg);
+    background-color: white;
+
+}
+.icon-box .icon-img img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.icon-box .text-holder{
+    padding: 0 50px;
 }
