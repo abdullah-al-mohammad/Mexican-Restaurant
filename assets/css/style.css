@@ -76,8 +76,8 @@
     width: 125px;
     border-radius: 50%;
     border: 2px solid #eb6825;
-    display: inline-block;
-    margin: 10px 100px;
+    /* display: inline-block; */
+    margin: 20px auto;
 }
 .icon-box .icon-holder figure ::after{
     position: absolute;
@@ -100,6 +100,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.icon-box .text-holder{
-    padding: 0 50px;
+.icon-box .text-holder p{
+    /* font: normal "Roboto", sans-serif; */
+    color: #515151;
+    letter-spacing: 0;
 }
