@@ -105,3 +105,12 @@
     color: #515151;
     letter-spacing: 0;
 }
+
+/*  */
+
+#choos-popular figcaption{
+    transform: translate(0, -50px);
+}
+#choos-popular figcaption .card-img-top{
+    filter: drop-shadow(black 0, 10px, 0, 0);
+}

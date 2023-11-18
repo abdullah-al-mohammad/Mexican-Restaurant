@@ -189,7 +189,7 @@
       </div>
     </section>
     <!-- CHOOSE FROM MOST POPULAR -->
-    <section class="container py-5">
+    <section id="choos-popular" class="container py-5">
       <div class="text-center mb-5">
         <h1>CHOOSE FROM MOST POPULAR</h1>
         <p style="color: #aaaaaa;">Explore restaurants, bars, and cafés by locality</p>
@@ -198,8 +198,23 @@
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
             <div class="card h-100">
-              <img src="./assets/images/cover-photo1.jpg" class="card-img-top" alt="...">
-              <figcaption></figcaption>
+              <div>
+                <figure class="position-reletive">
+                  <img src="./assets/images/cover-photo1.jpg" class="card-img-top" alt="...">
+                  <figcaption class="d-flex justify-content-between py-3 px-4 position-static">
+                    <div class="order-1">
+                      <i class="fa-solid fa-star" style="color: #ffc613;"></i>
+                      <i class="fa-solid fa-star" style="color: #ffc613;"></i>
+                      <i class="fa-solid fa-star" style="color: #ffc613;"></i>
+                      <i class="fa-solid fa-star" style="color: #ffc613;"></i>
+                      <i class="fa-solid fa-star" style="color: #ffc613;"></i>
+                      <span style="color: white;">(1)</span>
+                    </div>
+                    <div><span><i class="fa-regular fa-heart" style="color: #f1f2f4;"></i></span></div>
+                  </figcaption>
+                </figure>
+                <span>close</span>
+              </div>
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
