@@ -106,7 +106,7 @@
     letter-spacing: 0;
 }
 
-/*  */
+/* icon star heart */
 
 #choose-popular figcaption{
     transform: translate(0, -50px);
@@ -177,4 +177,30 @@
     position: absolute;
     top: 0;
     right: -6px;
+}
+/* card price */
+#choose-popular .card .min-order{
+    color: #eb6825;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#choose-popular .card .min-order .price{
+    font-size: 24px;
+    font-weight: 700;
+}
+/* card footer */
+#choose-popular .card .card-footer .img-holder img{
+   border: 1px solid #e5e5e5;
+   width: 45px;
+}
+#choose-popular .card .card-footer .text-holder .btn-primary{
+   background-color: #eb6825;
+   border-radius: 40px;
+   font-size: 12px;
+   padding: 5px 13px;
+   border: none;
+   text-transform: initial;
+}
+#choose-popular .card .card-footer .text-holder{
+   font-size: 12px;
 }
