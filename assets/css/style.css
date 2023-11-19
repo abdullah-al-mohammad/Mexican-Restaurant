@@ -202,5 +202,14 @@
    text-transform: initial;
 }
 #choose-popular .card .card-footer .text-holder{
+    padding: 6px 0 0 10px;
+}
+#choose-popular .card .card-footer{
    font-size: 12px;
 }
+.card{
+    
+}
+/* #choose-popular .card .card-footer a input{
+   padding-left: 10px;
+} */
