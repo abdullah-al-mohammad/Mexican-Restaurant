@@ -214,20 +214,52 @@
    border-radius: 40px;
    font-size: 12px;
    padding: 5px 13px;
-   border: none;
+   border-color: #eb6825;
    text-transform: initial;
    bottom: 13px;
-   margin-left: 70px;
+   /* margin-left: 70px; */
+}
+#choose-popular .card .card-footer .text-holder .btn-primary:hover{
+   background-color: white;
+   color: #eb6825;
+   border-color: #eb6825;
 }
 #choose-popular .card .card-footer .text-holder{
     padding: 6px 0 0 10px;
 }
 #choose-popular .card .card-footer{
    font-size: 12px;
+   background: #f3f3f3;
 }
 .card-footer{
     border-top: 0;
 }
-/* #choose-popular .card .card-footer a input{
-   padding-left: 10px;
-} */
+
+/* discount */
+#discount1 .order-now{
+    padding-top: 30px;
+
+}
+#discount1{
+    background-color: #eb6825;
+
+}
+#discount1 .btn-secondary{
+    background-color: white;
+    color: #515151;
+    padding: 10px 0;
+}
+
+/* backround image */
+ .order-food{
+    background: url("../images/call-to-action-paralax.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 150px;
+}
+#discount2 .btn-secondary{
+    background-color: #eb6825;
+    color: white;
+}
