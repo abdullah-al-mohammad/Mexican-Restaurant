@@ -138,6 +138,21 @@
     top: 15px;
     left: -11px;
 }
+#choose-popular .card .open{
+    position: absolute;
+    height: 20px;
+    width: 52px;
+    background: #239132;
+    padding: 3px 10px;
+    color: white;
+    font-size: 10px;
+    display: block;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+    top: 15px;
+    left: -11px;
+}
 #choose-popular .card .restaurant-status::before{
     content: "";
     position: absolute;
@@ -168,11 +183,11 @@
     top: 0;
     right: -6px;
 }
-#choose-popular .card .restaurant-status .close .bookmark{
+#choose-popular .card .restaurant-status .bookmark{
     width: 10px;
     height: 0px;
-    border-top: 10px solid #3ab54b;
-    border-bottom: 10px solid #3ab54b;
+    border-top: 10px solid #239132;
+    border-bottom: 10px solid #239132;
     border-right: 5px solid transparent;
     position: absolute;
     top: 0;
@@ -187,6 +202,7 @@
 #choose-popular .card .min-order .price{
     font-size: 24px;
     font-weight: 700;
+    padding-left: 8px;
 }
 /* card footer */
 #choose-popular .card .card-footer .img-holder img{
@@ -200,6 +216,8 @@
    padding: 5px 13px;
    border: none;
    text-transform: initial;
+   bottom: 13px;
+   margin-left: 70px;
 }
 #choose-popular .card .card-footer .text-holder{
     padding: 6px 0 0 10px;
@@ -207,8 +225,8 @@
 #choose-popular .card .card-footer{
    font-size: 12px;
 }
-.card{
-    
+.card-footer{
+    border-top: 0;
 }
 /* #choose-popular .card .card-footer a input{
    padding-left: 10px;
