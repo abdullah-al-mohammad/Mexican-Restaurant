@@ -248,6 +248,13 @@
     background-color: white;
     color: #515151;
     padding: 10px 0;
+    transition: .5s ease-in-out;
+
+}
+#discount1 .btn-secondary:hover{
+    background: linear-gradient(to right, #10c9c3 100%, rgb(183, 25, 25) 50%);
+
+    
 }
 
 /* backround image */
@@ -268,12 +275,15 @@
 #featured p{
     font-size: 12px !important;
 }
-#featured .card{
+#featured .card .border-black{
     border: 1px solid #f2f2f2 !important;
 }
 #featured .card-body h5:hover{
     color: #eb6825;
-    transition: calc(1s ea);
+    transition:all .3s ease-in-out;
+}
+#featured .card-body .star{
+    font-size: 14px;
 }
 
 /* bookmark */
@@ -310,7 +320,7 @@
     top: 0;
     right: -6px;
 }
-/*  */
+/* geeen open bookmark */
 
 #featured .card .open{
     position: absolute;
@@ -323,7 +333,7 @@
     color: white;
     padding: 3px 10px;
     top: 15px;
-    left: -11px;
+    left: 8px;
 }
 #featured .card .close{
     position: absolute;
@@ -336,7 +346,7 @@
     color: white;
     padding: 3px 10px;
     top: 15px;
-    left: -11px;
+    left: 8px;
 }
 #featured .card .restaurant-status .bookmark{
     width: 10px;
