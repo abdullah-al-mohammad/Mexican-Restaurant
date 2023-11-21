@@ -263,3 +263,98 @@
     background-color: #eb6825;
     color: white;
 }
+
+/*  */
+#featured p{
+    font-size: 12px !important;
+}
+#featured .card{
+    border: 1px solid #f2f2f2 !important;
+}
+#featured .card-body h5:hover{
+    color: #eb6825;
+    transition: calc(1s ea);
+}
+
+/* bookmark */
+#featured .card .close{
+    position: absolute;
+    height: 20px;
+    width: 52px;
+    background: #ed1b24;
+    text-align: center;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: white;
+    padding: 3px 10px;
+    top: 15px;
+    left: -11px;
+}
+#featured .card .close::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 10px solid #ed1b24;
+    border-left: solid transparent;
+    left: 0;
+    bottom: -10px;
+}
+#featured .card .close .bookmark{
+    width: 10px;
+    height: 0px;
+    border-top: 10px solid #ed1b24;
+    border-bottom: 10px solid #ed1b24;
+    border-right: 5px solid transparent;
+    position: absolute;
+    top: 0;
+    right: -6px;
+}
+/*  */
+
+#featured .card .open{
+    position: absolute;
+    height: 20px;
+    width: 52px;
+    background: #239132;
+    text-align: center;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: white;
+    padding: 3px 10px;
+    top: 15px;
+    left: -11px;
+}
+#featured .card .close{
+    position: absolute;
+    height: 20px;
+    width: 52px;
+    background: #ed1b24;
+    text-align: center;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: white;
+    padding: 3px 10px;
+    top: 15px;
+    left: -11px;
+}
+#featured .card .restaurant-status .bookmark{
+    width: 10px;
+    height: 0px;
+    border-top: 10px solid #239132;
+    border-bottom: 10px solid #239132;
+    border-right: 5px solid transparent;
+    position: absolute;
+    top: 0;
+    right: -6px;
+}
+#featured .card .restaurant-status::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 10px solid #239132;
+    border-left: solid transparent;
+    left: 0;
+    bottom: -10px;
+}
