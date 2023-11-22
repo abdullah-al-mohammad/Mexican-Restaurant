@@ -273,7 +273,8 @@
 
 /*  */
 #featured p{
-    font-size: 12px !important;
+    font-size: 13px !important;
+    color: #aaaaaa;
 }
 #featured .card .border-black{
     border: 1px solid #f2f2f2 !important;
@@ -367,4 +368,11 @@
     border-left: solid transparent;
     left: 0;
     bottom: -10px;
+}
+
+/* Get Our App */
+.get-app{
+    background: #f0f0f0;
+   border-top: 1px solid #f0f0f0;
+   border-bottom: 1px solid #f0f0f0;
 }
