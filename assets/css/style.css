@@ -37,6 +37,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+#home .home-text h1{
+    letter-spacing: 6px;
+    font-size: 50px;
+}
 #home .home-input .form-control{
     height: 49px;
     border-radius: 0;
@@ -44,6 +48,17 @@
 #home .home-input .form-control:focus{
     border-color: transparent;
     box-shadow: none;
+}
+#home .home-input .form-control::placeholder{
+   color: #d1d1d1;
+}
+#home .home-input i{
+    color: #999;
+    font-size: 20px;
+    right: 50%;
+    left: 47%;
+    top: 50%;
+    display: inline-block;
 }
 #home .home-input .btn-warning{
     width: 100%;
