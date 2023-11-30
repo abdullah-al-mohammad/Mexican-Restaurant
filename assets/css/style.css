@@ -7,6 +7,9 @@ h3{
 }
 
 /* navbar */
+.bg-body-tertiary {
+    background-color: transparent !important;
+}
 #navbar .btn-primary{
     background-color: transparent !important;
     color: #eb6825;
