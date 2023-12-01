@@ -14,10 +14,10 @@
 </head>
 <body>
   <header>
-      <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary text-uppercase position-fixed w-100 z-3">
+      <nav id="navbar" class="navbar navbar-expand-lg text-uppercase position-fixed w-100 z-3">
           <div class="container-fluid">
-            <!-- <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt=""></a> -->
-            <a class="navbar-brand" href="#"><img src="assets/images/sticky-logo.png" alt=""></a>
+            <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt=""></a>
+            <!-- <a class="navbar-brand" href="#"><img src="assets/images/sticky-logo.png" alt=""></a> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -690,7 +690,21 @@
         </div>
       </div>
   </footer>
-  
+  <script>
+    function changeNavbarColorOnScroll(){
+      document.getElementById('navbar');
+      const scrollPosition = window.scrollY;
+
+      if(scrollPosition > 100){
+        navbar.style.backgroundColor = 'white';
+        navbar.add.style.color = 'black'
+      }
+      else{
+        navbar.style.backgroundColor = 'transparent';
+      }
+    }
+    window.addEventListener('scroll', changeNavbarColorOnScroll)
+  </script>
     <!-- font aowdome -->
     <script src="https://kit.fontawesome.com/8e2b1c2c7c.js" crossorigin="anonymous"></script>
     <!-- bootstrap -->

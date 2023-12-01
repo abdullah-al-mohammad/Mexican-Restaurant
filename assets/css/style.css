@@ -7,9 +7,6 @@ h3{
 }
 
 /* navbar */
-.bg-body-tertiary {
-    background-color: transparent !important;
-}
 #navbar .btn-primary{
     background-color: transparent !important;
     color: #eb6825;
@@ -30,6 +27,9 @@ h3{
 }
 #navbar .demo .nav-link:focus, .nav-link:hover{
     color: orangered !important;
+}
+#navbar .demo .nav-link:focus, .nav-link{
+    color: white !important;
 }
 #navbar .demo .nav-item:hover .dropdown-menu {
     display: block !important;
