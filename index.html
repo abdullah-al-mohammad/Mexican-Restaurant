@@ -697,7 +697,9 @@
 
       if(scrollPosition > 100){
         navbar.style.backgroundColor = 'white';
-        navbar.add.style.color = 'black'
+        document.getElementById('navbar').classList.remove('.demo .nav-link:focus, .nav-link');
+        document.getElementById('navbar').classlist.add('text-black');
+        navbar.style.color = 'text-black';
       }
       else{
         navbar.style.backgroundColor = 'transparent';
