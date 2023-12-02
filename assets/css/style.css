@@ -476,9 +476,10 @@ h3{
 #footer-top ul li a:hover{
     background-color: #dc6d34;
     transition: all .5s ease-in-out;
+    color: white;
 }
 #footer-top ul li a i{
-    position: absolute;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); 
