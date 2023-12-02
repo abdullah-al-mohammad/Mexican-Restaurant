@@ -28,9 +28,9 @@ h3{
 #navbar .demo .nav-link:focus, .nav-link:hover{
     color: orangered !important;
 }
-/* #navbar .demo .nav-link:focus, .nav-link{
+#navbar .demo .nav-link:focus, .nav-link{
     color: white !important;
-} */
+}
 #navbar .demo .nav-item:hover .dropdown-menu {
     display: block !important;
 }
@@ -284,7 +284,7 @@ h3{
     
 }
 
-/* backround image */
+/* background image */
  .order-food{
     background: url("../images/call-to-action-paralax.jpg");
     background-position: center;
@@ -349,7 +349,7 @@ h3{
     top: 0;
     right: -6px;
 }
-/* geeen open bookmark */
+/* green open bookmark */
 
 #featured .card .open{
     position: absolute;
