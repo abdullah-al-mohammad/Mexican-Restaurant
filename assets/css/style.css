@@ -1,6 +1,7 @@
 /* global site */
 #navbar{
     font-family: 'Roboto', sans-serif !important;
+    transition: all .3s ease-in-out;
 }
 h3{
     letter-spacing: 2px;
@@ -276,14 +277,19 @@ h3{
     color: #515151;
     padding: 10px 0;
     transition: .5s ease-in-out;
+    background: linear-gradient(to left, white 50%, rgba(0, 0, 0, 0.028) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
 
 }
 #discount1 .btn-secondary:hover{
-    background: linear-gradient(to right, #10c9c3 100%, rgb(183, 25, 25) 50%);
-
-    
+    background-position: left;
 }
-
+@keyframes bgblack{
+    from{
+       right: 100%;
+    }
+}
 /* background image */
  .order-food{
     background: url("../images/call-to-action-paralax.jpg");
@@ -297,6 +303,9 @@ h3{
     background-color: #eb6825;
     color: white;
     font-weight: 700;
+    background: linear-gradient(to left, #eb6825 50%, rgba(89, 89, 90, 0.122) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
 }
 
 /*  */

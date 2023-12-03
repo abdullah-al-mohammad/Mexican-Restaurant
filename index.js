@@ -21,13 +21,13 @@ function changeNavbarColorOnScroll(){
     const stickyLogo = document.querySelector('.sticky-logo');
     const navLinks = document.querySelectorAll("#navbar .nav-link");
     const scrollPosition = window.scrollY;
+    navId.style.transition = 'all .3s ease-in-out';
 
     if(scrollPosition > 100){
       navId.classList.add("bg-white");
       mainLogo.classList.add("d-none");
       stickyLogo.classList.remove("d-none")?.add("d-block");
       navLinks.forEach((navLink) => navLink.classList.add("text-black"));
-      // navId.classList.remove('.demo .nav-link:focus, .nav-link');
     } else{
       navId.classList.remove("bg-white");
       mainLogo.classList.remove("d-none");
@@ -35,3 +35,13 @@ function changeNavbarColorOnScroll(){
       navLinks.forEach((navLink) => navLink.classList.remove("text-black"));
     }
   })
+  // input field
+  const input = document.querySelector('.form-control');
+  console.log(input);
+  if(input.placeholder){
+    input.addEventListener('click', (e) =>{
+      input.placeholder = '';
+    });
+  }else {
+    // input.placeholder.preventDefault();
+  };  
