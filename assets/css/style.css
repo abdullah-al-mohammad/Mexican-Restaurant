@@ -29,6 +29,10 @@ h3{
 #navbar .demo .nav-link:focus, .nav-link:hover{
     color: orangered !important;
 }
+#navbar .nav-link{
+    color: white;
+    font-weight: bold;
+}
 #navbar .demo .nav-item:hover .dropdown-menu {
     display: block !important;
 }

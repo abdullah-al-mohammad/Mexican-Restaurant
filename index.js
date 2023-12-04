@@ -38,12 +38,11 @@ function changeNavbarColorOnScroll(){
     }
   })
   // input field
-  const input = document.querySelector('.form-control');
-  console.log(input);
-  if(input.placeholder){
-    input.addEventListener('click', (e) =>{
-      input.placeholder = '';
-    });
-  }else {
-    // input.placeholder.preventDefault();
-  };  
+  const inputs = document.querySelectorAll('.form-control');
+  const inputValue = inputs.forEach((input) => {
+    if(input.placeholder){
+      input.addEventListener('click', () =>{
+        input.placeholder = '';
+      })
+    }
+  })
