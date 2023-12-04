@@ -33,6 +33,10 @@ h3{
     color: white;
     font-weight: bold;
 }
+#navbar .navbar-nav .nav-link{
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+}
 #navbar .demo .nav-item:hover .dropdown-menu {
     display: block !important;
 }
