@@ -27,12 +27,14 @@ function changeNavbarColorOnScroll(){
       navId.classList.add("bg-white");
       mainLogo.classList.add("d-none");
       stickyLogo.classList.remove("d-none")?.add("d-block");
-      navLinks.forEach((navLink) => navLink.classList.add("text-black"));
+      navLinks.forEach((navLink) => navLink.classList.add("fw-bold"));
+      navLinks.forEach((navLink) => navLink.style.color = ('#777'));
+
     } else{
       navId.classList.remove("bg-white");
       mainLogo.classList.remove("d-none");
       stickyLogo.classList.add("d-none");
-      navLinks.forEach((navLink) => navLink.classList.remove("text-black"));
+      navLinks.forEach((navLink) => navLink.style.color = ('white'));
     }
   })
   // input field
