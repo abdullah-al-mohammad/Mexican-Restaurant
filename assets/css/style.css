@@ -255,11 +255,13 @@ h3{
    border-color: #eb6825;
    text-transform: initial;
    bottom: 13px;
+   transition: all .3s ease-in-out;
 }
 #choose-popular .card .card-footer .text-holder .btn-primary:hover{
    background-color: white;
    color: #eb6825;
    border-color: #eb6825;
+   transition: all .3s ease-in-out;
 }
 #choose-popular .card .card-footer .text-holder{
     padding: 6px 0 0 10px;
@@ -493,11 +495,12 @@ h3{
     height: 30px;
     width: 30px;
     border-radius: 50%;
+    transition: all .3s ease-in-out;
     display: block;
 }
 #footer-top ul li a:hover{
     background-color: #dc6d34;
-    transition: all .5s ease-in-out;
+    transition: all .3s ease-in-out;
     color: white;
 }
 #footer-top ul li a i{
