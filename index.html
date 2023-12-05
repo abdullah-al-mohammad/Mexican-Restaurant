@@ -115,18 +115,28 @@
             <input type="text" class="form-control border-0" placeholder="RESTAURANT NAME" aria-label="">
           </div>
           <div class="col-lg-4 col-md-5 mb-4 mb-md-0 position-relative">
-            <a href="https://www.google.com/maps/@23.8605545,90.0013726,16.17z?entry=ttu">
-              <i class="fa-regular fa-circle-dot position-absolute map"></i>
-            </a>
             <input type="text" class="form-control location border-0" placeholder="ALL LOCATIONS" aria-label="ALL LOCATIONS">
+            <a href="">
+              <div class="dropdown">
+                <a class="dropdown-toggle position-absolute dropdown-check" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-regular fa-circle-dot position-absolute position-relative map"></i>
+                </a>
+              
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </a>
           </div>
           <div class="col-lg-2 col-md-2 mb-4 mb-md-0">
             <button type="button" class="btn btn-warning">search</button>
           </div>
           <div class="text-center mt-5">
-            <figure>
+            <div>
               <img class="img-fluid" src="./assets/images/options.png" alt="">
-            </figure>
+            </div>
           </div>
         </div>
       </div>

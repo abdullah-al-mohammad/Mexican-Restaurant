@@ -77,11 +77,14 @@ h3{
     top: 15px;
 }
 #home .home-input .map{
-    position: absolute;
     color: #999;
     font-size: 20px;
+    right: -7px;
+    top: 0;
+}
+#home .home-input .dropdown-check{
     right: 20px;
-    top: 15px;
+    bottom: 15px;
 }
 #home .home-input .btn-warning{
     width: 90%;
