@@ -6,6 +6,9 @@ body{
     font-family: 'Roboto', sans-serif !important;
     transition: all .3s ease-in-out;
 }
+.gray-silver{
+    color: #aaaaaa;
+}
 h3{
     letter-spacing: 2px;
 }
@@ -252,7 +255,6 @@ h3{
    border-color: #eb6825;
    text-transform: initial;
    bottom: 13px;
-   /* margin-left: 70px; */
 }
 #choose-popular .card .card-footer .text-holder .btn-primary:hover{
    background-color: white;
@@ -281,24 +283,16 @@ h3{
 }
 #discount1 .btn-secondary{
     background-color: white;
-    color: #515151;
+    color: black;
     padding: 10px 0;
     transition: .5s ease-in-out;
-    background: linear-gradient(to left, white 50%, rgba(0, 0, 0, 0.028) 50%) right;
-    background-size: 200%;
-    transition: .5s ease-out;
-
+    box-shadow: inset 0 0 0 0 #1d1b1b06;
 }
 #discount1 .btn{
     border-radius: 3px;
 }
 #discount1 .btn-secondary:hover{
-    background-position: left;
-}
-@keyframes bgblack{
-    from{
-       right: 100%;
-    }
+    box-shadow: inset 150px 0 0 0 #1e1d1d36;
 }
 /* background image */
  .order-food{
@@ -314,9 +308,10 @@ h3{
     background-color: #eb6825;
     color: white;
     font-weight: 700;
-    background: linear-gradient(to left, #eb6825 50%, rgba(89, 89, 90, 0.122) 50%) right;
-    background-size: 200%;
-    transition: .5s ease-out;
+    box-shadow: inset 0 0 0 0 #44424243;
+}
+#discount2 .btn-secondary:hover{
+    box-shadow: inset 150px 0 0 0 #e0e0e025;
 }
 
 /*  */
